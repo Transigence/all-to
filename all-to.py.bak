@@ -1,7 +1,7 @@
 import sys, argparse
 import os, subprocess
 
-TEST = False
+TEST = True
 
 AUDIO_EXTENSIONS = {"aac", "flac", "mp3", "ogg", "opus", "wav"}
 CODEC_LIBS = {"aac": "aac", "flac": "flac", "mp3": "libmp3lame", "ogg": "libvorbis", "opus": "libopus", "wav": "wav"} #wav is wrong. I know it is. I'll fix it later (next time I want wav output).
